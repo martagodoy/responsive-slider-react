@@ -1,1 +1,1 @@
-Responsive slider with React
+Responsive slider with React.
