@@ -1,0 +1,1 @@
+Responsive slider with React
