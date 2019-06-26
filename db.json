@@ -1,0 +1,31 @@
+{
+    "dataImages":
+      [{
+        "bgImage": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/background.jpg?raw=true",
+        "iconTrip": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/icon_rocket.png?raw=true",
+        "logo": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/logo.png?raw=true",
+        "imageRocket": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/rocket.jpg?raw=true",
+        "rock": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/rock.jpg?raw=true",
+        "title" : "Visa to the Moon",
+        "subtitle" : "Your trip start here",
+        "hash" : "#moontrip #visamoon #moontickets",
+        "linkprev" : "Prev",
+        "linknext" : "Next",
+        "easeView" : "view ease"
+  
+      },{
+        "bgImage": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/background.jpg?raw=true",
+        "iconTrip": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/icon_rocket.png?raw=true",
+        "logo": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/logo.png?raw=true",
+        "moon": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/luna.jpg?raw=true",
+        "rock": "https://github.com/martagodoy/responsive-slider/blob/master/public/assets/imagenes/rock.jpg?raw=true",
+        "title" : "Explore the surface",
+        "subtitle" : "Your trip start here",
+        "hash" : "#moontrip #visamoon #moontickets",
+        "linkprev" : "Prev",
+        "linknext" : "Next",
+        "easeView" : "view ease"
+  
+      }]
+  }
+  
