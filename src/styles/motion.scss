@@ -1,0 +1,22 @@
+/* Motion */
+@keyframes fade-in-text {
+	from {
+		opacity: 0;
+		transform: translateY(3rem);
+		transition: 1.5s;
+	}
+	to {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+@keyframes fade-in {
+	from {
+		opacity: 0;
+		transition: 1s;
+	}
+	to {
+		opacity: 1;
+	}
+}

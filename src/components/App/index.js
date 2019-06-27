@@ -1,12 +1,13 @@
 import React from 'react';
 import './index.scss';
+import Slider from '../Slider';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header"> 
-        <h1>Hey!!</h1>
-      </header>
+      <div className="wrapper">
+        <Slider/>
+      </div>
     </div>
   );
 }
