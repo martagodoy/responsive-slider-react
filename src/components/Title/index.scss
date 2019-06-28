@@ -1,0 +1,59 @@
+
+@mixin fadeText {
+	animation-name: fade-in-text;
+    animation-duration: 2s;
+}
+
+#first__title{
+    position: absolute;
+    top: 15%;
+    width:80%;
+    z-index:1;
+    @include fadeText;
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        color: $text-color;
+        padding-left: 2.2rem;
+        font-size: 2.5rem;
+        font-weight: bold;  
+    }
+}
+
+#second__title--mobile{
+    position: absolute;
+    bottom: 15%;
+    width:85%;
+    z-index:1;
+    display: block;
+    @include fadeText;
+
+    h1{
+        font-family: 'Montserrat', sans-serif;
+        color: $text-color;
+        padding-left: 2.2rem;
+        font-size: 2.5rem;
+        font-weight: bold;  
+    }
+}
+
+@media (min-width: 748px) {
+    #first__title{
+        display: block;
+        top: 44%;
+        width:100%;
+        transition: 2s;
+        z-index: 5;
+        @include fadeText;
+
+
+        h1{
+            padding-left: 4rem;
+            font-size: 4.5rem;
+        }
+    }
+
+    #second__title--mobile{
+        display: none;     
+    }
+}

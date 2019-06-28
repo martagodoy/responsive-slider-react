@@ -1,0 +1,65 @@
+#container{
+    width: 100vw;
+    height: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(23, 70px);
+    box-sizing: content-box;
+    position: relative;
+
+    animation-name: fade-in;
+    animation-duration: 2s;
+
+    .controls--desktop{
+        display: none;
+    }
+}
+
+
+@media (min-width: 748px) {
+		
+	#container{
+		width: 100%;
+		max-width: 1140px;
+		min-width: 748px;
+		grid-template-columns: repeat(24, 47.5px);
+    	grid-template-rows: repeat(24, 25px);
+		box-sizing: content-box;
+		position: relative;
+	
+        .controls--desktop{
+            display: grid;
+            grid-column: 19 / 13;
+            grid-row: 23 / 25;
+            background-color: $secondary-color;
+            z-index: 2;
+    
+            .box--control--buttons{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+    
+                .link{
+                    width: 50%;
+                    height: 100%;
+    
+                    h4{
+                        text-align: center;
+                        color: $link-no-visited;
+                        font-family: 'Merriweather', serif;
+                        font-size: 1rem;
+                        padding: 0 1rem ;
+                        font-weight: lighter;
+                    }
+    
+                    h4:active{
+                        color: $link-active;
+                    }   
+                }            
+            }
+        }
+    }       
+}
