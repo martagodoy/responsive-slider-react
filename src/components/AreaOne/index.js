@@ -1,7 +1,8 @@
 import React from 'react';
 
 const AreaOne = ({ currentData }) => {
-
+    
+    // Background rock box
     var divStyle = {
         backgroundImage: 'url(' + currentData.rock + ')',
         backgroundSize: 'cover',

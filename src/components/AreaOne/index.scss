@@ -20,11 +20,13 @@
     }
 }
 
-@media (min-width: 1024px) {
-	#rock{
-        grid-row: 1 / 23;
-        grid-column: 1 / 7;
-    }
+
+@media (min-width: 748px) {
+
+#rock{
+    grid-row: 1 / 23;
+    grid-column: 1 / 7;
+}
 
 .box--logo{
     padding-top: 2.5rem;
@@ -34,4 +36,5 @@
         height: auto;
     }
 }
+
 }

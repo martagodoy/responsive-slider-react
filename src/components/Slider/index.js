@@ -20,8 +20,7 @@ export default class Slider extends Component {
         this.getData()
     }
 
-
-    //HTTP Request with axios to mock json-server API
+    // HTTP Request with axios to mock json-server API
     getData() {
         axios
             .get('https://my-json-server.typicode.com/martagodoy/responsive-slider-react/dataImages')
@@ -39,7 +38,7 @@ export default class Slider extends Component {
             })
     }
 
-    // Arrows
+    // Arrow Prev
     handlerPrevButton(e) {
 
         e.preventDefault();
@@ -48,6 +47,7 @@ export default class Slider extends Component {
         }));
     }
 
+    // Arrow Next
     handlerNextButton(e) {
 
         e.preventDefault();
@@ -55,7 +55,6 @@ export default class Slider extends Component {
             currentIndex: 1
         }));
     }
-
 
 
     render() {

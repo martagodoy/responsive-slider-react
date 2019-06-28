@@ -2,12 +2,11 @@ import React from 'react';
 
 const AreaTwo = ({ currentData, mobileMoon }) => {
 
-    //inline style by props
+    // Background inline 
     var styleSpaceBox = {
         backgroundImage: 'url(' + currentData.bgImage + ')',
         backgroundSize: 'cover',
     };
-
     var styleRocketBox = {
         backgroundImage: 'url(' + currentData.imageRocket + ')',
     };
@@ -15,7 +14,7 @@ const AreaTwo = ({ currentData, mobileMoon }) => {
         backgroundImage: 'url(' + mobileMoon + ')',
     };
 
-    //url image trip icon
+    // URL image trip icon
     const urlTrip = currentData.iconTrip
 
     return (
@@ -52,9 +51,7 @@ const AreaTwo = ({ currentData, mobileMoon }) => {
             </div>
 
         </React.Fragment>
-
     )
-
 }
 
 export default AreaTwo;

@@ -11,7 +11,6 @@ const Areas = ({ currentData, mobileMoon }) => {
         </React.Fragment>
 
     )
-
 }
 
 export default Areas;
